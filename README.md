@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  支持主 Agent 自主创建子 Agent，用户可在 Web UI 界面直接配置多个飞书 Bot 凭证，一键部署多智能体协作团队
+  自定义角色 · 可视化配置飞书 Bot 凭证 · 一键部署多智能体协作团队到 Openclaw
 </p>
 
 <p align="center">
