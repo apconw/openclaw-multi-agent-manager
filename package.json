@@ -1,0 +1,48 @@
+{
+  "name": "feishu-multi-agent-manager",
+  "version": "2.0.1",
+  "description": "Openclaw 数字人孵化平台-飞书 - 支持主 Agent 自主创建子 Agent，用户可在 UI 界面直接配置多个飞书 Bot 凭证",
+  "author": "欢哥",
+  "license": "MIT",
+  "keywords": [
+    "飞书",
+    "多 Agent",
+    "交互式配置",
+    "Bot 管理"
+  ],
+  "category": "开发工具",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "dev": "concurrently \"npm run team-config-api\" \"npm run dev:web-only\"",
+    "dev:web-only": "cd web && npm run dev",
+    "dev:skill": "ts-node src/index.ts",
+    "team-config-api": "ts-node src/teamConfigApiServer.ts",
+    "lint": "eslint src/**/*.ts",
+    "extract-roles": "npx tsx scripts/extract-roles.ts",
+    "migrate:team-configs": "npx tsx scripts/migrate-team-configs-to-db.ts",
+    "migrate:role-categories": "npx tsx scripts/migrate-role-categories.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.0",
+    "better-sqlite3": "^12.8.0",
+    "typescript": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/jest": "^29.5.12",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "concurrently": "^9.1.0",
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

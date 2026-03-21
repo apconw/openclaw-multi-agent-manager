@@ -1,0 +1,70 @@
+########################
+# Root Node/TypeScript #
+########################
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Environment & secrets (飞书 Bot 等凭证勿提交)
+.env
+.env.*
+!.env.example
+
+# Test & coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+
+################
+# Web frontend #
+################
+
+web/node_modules/
+web/dist/
+web/build/
+web/.vite/
+web/.cache/
+
+# Web env files（前端 API/秘钥统一忽略）
+web/.env
+web/.env.*
+!web/.env.example
+
+# Web test & coverage
+web/coverage/
+
+
+##########
+# Others #
+##########
+
+# Optional: 若 web 为子项目且使用独立 git，可取消下行注释
+# web/.git/
+
+# Saved team configs (contains secrets)
+team-configs/
+
+# SQLite database
+data/
+*.db
