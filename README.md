@@ -23,15 +23,9 @@
 
 ## 知识库
 
-<p align="center">
-  <a href="https://my.feishu.cn/wiki/YPS0wbceXi54tkkOkQ7c4iJonSf">
-    <img src="image/a.png" alt="OpenClaw 知识库" width="600"/>
-  </a>
-</p>
+[![OpenClaw 知识库](./image/a.png)](https://my.feishu.cn/wiki/YPS0wbceXi54tkkOkQ7c4iJonSf)
 
-<p align="center">
-  <a href="https://my.feishu.cn/wiki/YPS0wbceXi54tkkOkQ7c4iJonSf">📚 OpenClaw 实战指南：从安装部署到场景落地</a>
-</p>
+[📚 OpenClaw 实战指南：从安装部署到场景落地](https://my.feishu.cn/wiki/YPS0wbceXi54tkkOkQ7c4iJonSf)
 
 ## 演示视频
 
