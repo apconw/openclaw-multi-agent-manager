@@ -21,6 +21,18 @@
 
 > **注意：** 目前仅支持飞书（Feishu / Lark）平台机器人，其他 IM 平台支持正在规划中。
 
+## 知识库
+
+<p align="center">
+  <a href="https://my.feishu.cn/wiki/YPS0wbceXi54tkkOkQ7c4iJonSf">
+    <img src="image/a.png" alt="OpenClaw 知识库" width="600"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://my.feishu.cn/wiki/YPS0wbceXi54tkkOkQ7c4iJonSf">📚 OpenClaw 实战指南：从安装部署到场景落地</a>
+</p>
+
 ## 演示视频
 
 <table align="center">
