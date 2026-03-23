@@ -66,5 +66,5 @@ web/coverage/
 team-configs/
 
 # SQLite database
-data/
+/data/
 *.db
