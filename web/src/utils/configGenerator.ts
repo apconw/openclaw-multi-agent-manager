@@ -39,6 +39,8 @@ export function generateOpenClawConfig(agents: SelectedAgent[], _edges?: Collabo
             {
               appId: agent.credential.appId,
               appSecret: agent.credential.appSecret,
+              encryptKey: agent.credential.encryptKey,
+              verificationToken: agent.credential.verificationToken,
             },
           ])
         ),
